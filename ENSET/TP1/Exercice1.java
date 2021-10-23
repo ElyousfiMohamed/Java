@@ -46,4 +46,6 @@ public class Exercice1 {
                 i++;
         
         System.out.println("nombre des etudiants ayant "+note+" est : "+i);
-    }}
+        sc.close();
+    }
+}

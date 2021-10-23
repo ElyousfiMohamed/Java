@@ -47,5 +47,6 @@ public class Exercice2 {
             }
              
         }
+        sc.close();
     }
 }
