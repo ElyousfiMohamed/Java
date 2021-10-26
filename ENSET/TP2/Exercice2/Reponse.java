@@ -11,6 +11,14 @@ public class Reponse {
 
     @Override
     public String toString() {
-        return "titre : " + titre + " / " + correcte;
+        return "titre : " + titre;
+    }
+
+    public boolean getCorrecte() {
+        return correcte;
+    }
+
+    public String getTitre() {
+        return titre;
     }
 }
