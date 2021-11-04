@@ -1,0 +1,67 @@
+RMI   : tout en java
+	
+	modifier tout les fichier 
+	1.iexemple(nom de method)   
+	2.odexemple(definir les method)  
+	3.client(od.apple des methodes)  
+	4.server
+
+	javac *.java
+	rmic ODexemple (creation de stub)
+	start rmiregistry
+	start java server
+	java client
+
+
+RPC   : 
+	1.mofifier l'interface (methode)
+	2.compile
+	3.check down stub  obtenir le nom de method
+	4.ce nom  les definir  dant le server
+	5.modifier client
+	6.compile1
+
+	
+	interface (exemple.x) language rpcl   s/c en mais lang
+
+	compile(generation de ficher automatiquement)
+	compile1(compilation des class)
+	start portmap(registre)
+	start java server
+	java client
+	
+
+CORBA : interface (exemple .idl) language idl  s/c mais lang 
+
+	compile(generation de ficher automatiquement)
+	compile1(compilation des class)
+	start orbd(registre)
+	start java server 
+	java client
+
+
+
+socket TCP : 
+	
+	pour client  : en utilise la class Socket 
+	pour server  : en utilise la class ServerSocket
+
+        javac *.java
+        start java Server PORT
+        java CLient
+
+socket UDP :
+
+	pour client / server : DatagramPacket (pour preparer les packets)
+			       DatagramSocket 
+
+        javac *.java
+        start java Server PORT
+        java CLient
+
+
+
+
+
+
+
