@@ -1,0 +1,2 @@
+idlj -fall hello.idl
+
