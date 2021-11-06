@@ -6,7 +6,12 @@ public class LigneCommande {
     private Ordinateur o;
 
     public LigneCommande(int quantite, Commande c, Ordinateur o) {
-        this.quantite = quantite;
+        if(quantite > o.getNombreEnStock()) {
+            this.quantite = 0;
+            System.out.println("produit n'est pas disponible");
+        }
+        else
+            this.quantite = quantite;
         this.c = c;
         this.o = o;
     }

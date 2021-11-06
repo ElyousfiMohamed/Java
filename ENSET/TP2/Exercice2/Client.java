@@ -18,6 +18,7 @@ public class Client {
         this.email = email;
         this.ville = ville;
         this.telephone = telephone;
+        commandes = new ArrayList<>();
     }
 
     public Client() {
