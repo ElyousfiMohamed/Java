@@ -13,6 +13,9 @@ public class Categorie {
         ordinateurs = new ArrayList<Ordinateur>();
     }
 
+    public Categorie() {
+    }
+
     public String getNom() {
         return nom;
     }

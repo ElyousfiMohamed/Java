@@ -13,6 +13,9 @@ public class Commande {
         this.etatCommande = etatCommande;
     }
 
+    public Commande() {
+    }
+
     public String getReference() {
         return this.reference;
     }
@@ -54,4 +57,10 @@ public class Commande {
             "}";
     }
     
+
+    @Override
+    public boolean equals(Object o) {
+       return this.reference.equals(((Commande)o).reference);
+    }
+
 }

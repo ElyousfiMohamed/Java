@@ -11,6 +11,8 @@ public class LigneCommande {
         this.o = o;
     }
 
+    public LigneCommande() {
+    }
 
     public int getQuantite() {
         return this.quantite;

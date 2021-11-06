@@ -15,6 +15,9 @@ public class Ordinateur {
         this.nombreEnStock = nombreEnStock;
     }
 
+    public Ordinateur() {
+    }
+
     public String getNom() {
         return nom;
     }

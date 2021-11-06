@@ -9,7 +9,7 @@ public class Client {
     private String email;
     private String ville;
     private String telephone;
-    private ArrayList<Commande> Commandes;
+    private ArrayList<Commande> commandes;
 
     public Client(String nom, String prenom, String adresse, String email, String ville, String telephone) {
         this.nom = nom;
@@ -20,6 +20,8 @@ public class Client {
         this.telephone = telephone;
     }
 
+    public Client() {
+    }
 
     public String getNom() {
         return this.nom;
@@ -70,13 +72,34 @@ public class Client {
     }
 
     public ArrayList<Commande> getCommandes() {
-        return this.Commandes;
+        return this.commandes;
     }
 
-    public void setCommandes(ArrayList<Commande> Commandes) {
-        this.Commandes = Commandes;
+    public void setCommandes(ArrayList<Commande> commandes) {
+        this.commandes = commandes;
     }
 
+    public void ajouterCommande(Commande c) {
+        boolean existe = false;
+        for(Commande co : this.commandes) {
+            if(co.equals(c)) {
+                existe = true;
+                break;
+            }
+        }
+
+        if(!existe)
+            this.commandes.add(c);
+    }
+
+    public void supprimerCommande(Commande c) {
+        for(Commande co : this.commandes) {
+            if(co.equals(c)) {
+                this.commandes.remove(c);
+                break;
+            }
+        }
+    }
 
     @Override
     public String toString() {
