@@ -1,0 +1,19 @@
+ /*Produit produit1 = new Produit(Long.valueOf(1), "Iphone X", Double.valueOf(14000.00));
+        Produit produit2 = new Produit(Long.valueOf(1), "Airpods 2", Double.valueOf(3000.00));
+
+        
+        LigneDeCommande ligne11 = new LigneDeCommande(Long.valueOf(1), Integer.valueOf(2), Double.valueOf(28000.00), facture1, produit1);
+        LigneDeCommande ligne12 = new LigneDeCommande(Long.valueOf(1), Integer.valueOf(3), Double.valueOf(18000.00), facture1, produit2);
+        List<LigneDeCommande> lignesDeCommande1 = new ArrayList<>();
+        lignesDeCommande1.add(ligne11);
+        lignesDeCommande1.add(ligne12);
+        facture1.setLignesDeCommande(lignesDeCommande1);
+
+
+        
+        LigneDeCommande ligne21 = new LigneDeCommande(Long.valueOf(1), Integer.valueOf(1), Double.valueOf(14000.00), facture1, produit1);
+        LigneDeCommande ligne22 = new LigneDeCommande(Long.valueOf(1), Integer.valueOf(1), Double.valueOf(3000.00), facture1, produit2);
+        List<LigneDeCommande> lignesDeCommande2 = new ArrayList<>();
+        lignesDeCommande2.add(ligne21);
+        lignesDeCommande2.add(ligne22);
+        facture2.setLignesDeCommande(lignesDeCommande2);*/
