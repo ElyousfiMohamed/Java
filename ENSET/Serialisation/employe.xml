@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+ <object class="Serialisation.Employe">
+  <void property="adr">
+   <object class="Serialisation.Adresse">
+    <void property="pays">
+     <string>maroc</string>
+    </void>
+    <void property="rue">
+     <string>alkods</string>
+    </void>
+    <void property="ville">
+     <string>khouribga</string>
+    </void>
+   </object>
+  </void>
+  <void property="nom">
+   <string>ELYOUSFI</string>
+  </void>
+  <void property="prenom">
+   <string>Mohamed</string>
+  </void>
+ </object>
+</java>
